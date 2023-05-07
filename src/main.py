@@ -1,5 +1,5 @@
 import interactions
-import token
+import tokens 
 
 bot = interactions.Client()
 
@@ -7,4 +7,4 @@ bot = interactions.Client()
 async def on_startup():
     print("Bot is ready!")
 
-bot.start(token.bot_token)
+bot.start(tokens.BOT_TOKEN)
